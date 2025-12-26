@@ -1,0 +1,25 @@
+cat > .gitignore << 'EOF'
+# dependencies
+node_modules/
+
+# electron build/cache
+dist/
+out/
+build/
+.release/
+*.log
+
+# env
+.env
+
+# mac/windows junk
+.DS_Store
+Thumbs.db
+
+# optional: IDE
+.vscode/
+.idea/
+
+# optional: lock files if you want (NOT required)
+# package-lock.json
+EOF

@@ -1,0 +1,14 @@
+{
+  "name": "linkdesk-signaling",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.0",
+    "twilio": "^5.9.0",
+    "ws": "^8.18.0"
+  }
+}
